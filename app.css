@@ -3,21 +3,56 @@ body {
     display: flex;
     /* align-items: center; */
     justify-content: center;
+    text-transform: uppercase;
 
+}
+html {
+    font-family: 'Montserrat', sans-serif;
 }
 .pricing-plan {
     background-color: #fffffc;
-    border: 5px solid #fefae0;
-    border-radius: 2%;
-    /* align-items: center; */
-    /* justify-content: center; */
+    border: 1px solid #fefae0;
+    /* border-radius: 2%; */
+    align-items: center;
+    justify-content: center;
     text-align: center;
+    padding: 2px;
+    width: 100%;
+    max-width: 300px;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+
+
 }
 .panel {
     display: flex;
     width: 100%;
-    max-width: 900px;
+    /* max-width: 1000px; */
+    flex-direction: row;
+    align-items: center;
     justify-content: center;
     /* flex-wrap: wrap; */
+    height: 100vh;
 
 }
+ .pricing-features {
+     margin: 5px;
+     padding: 5px;
+ }
+ .pricing-features-item {
+     margin: 5px;
+     border: 1px solid #0077b6;
+     padding: 10px;
+     font-size: small;
+     letter-spacing: 2px;
+ }
+ .pricing-img {
+     width: 200px;
+     margin-bottom: 20px;
+     max-width: 100%;
+ }
+ div h2 {
+     font-size: medium;
+     font-weight: 500;
+ }
