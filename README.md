@@ -1,0 +1,1 @@
+in this project iam going to use flexbox exclusevly
