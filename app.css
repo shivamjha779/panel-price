@@ -1,3 +1,23 @@
 body {
-    background-color: #d8e2dc;
+    background-color: #00b4d8;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+
+}
+.pricing-plan {
+    background-color: #fffffc;
+    border: 5px solid #fefae0;
+    border-radius: 2%;
+    /* align-items: center; */
+    /* justify-content: center; */
+    text-align: center;
+}
+.panel {
+    display: flex;
+    width: 100%;
+    max-width: 900px;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+
 }
